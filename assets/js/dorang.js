@@ -13,6 +13,18 @@
 */
 
  // toggle 
+
+document.addEventListener('DOMContentLoaded', function () {
+  var body = document.querySelector('body');
+  var prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+  if (prefersDarkScheme.matches) {
+    body.classList.add('dark-theme');
+  } else {
+    body.classList.add('light-theme');
+  }
+});
+
 $(document).ready(function(){
     
     $('.search-toggle').click(function(){

@@ -1826,7 +1826,7 @@ pre code {
 .table th,
 .table td {
   padding: 0.75rem;
-  vertical-align: top;
+  vertical-align: middle;
   border-top: 1px solid #dee2e6;
 }
 
@@ -11442,12 +11442,11 @@ a:hover {
 }
 
 .footer .infos {
-  text-align: right;
+  text-align: justify;
   color: #fff;
   opacity: 1;
-  width: 50%;
   margin-bottom: -1px;
-  padding: 0 4px;
+  padding: 4 4px;
   font-size: 14px;
 }
 
@@ -11664,6 +11663,14 @@ body.light-theme .title {
 
 body.light-theme p {
   color: #000;
+}
+
+body.light-theme table {
+  color: #000;
+}
+
+body.dark-theme table {
+  color: #fff;
 }
 
 body.light-theme nav.page-navbar .nav-link {
