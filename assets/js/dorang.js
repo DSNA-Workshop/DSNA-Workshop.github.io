@@ -19,9 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
   if (prefersDarkScheme.matches) {
-    body.classList.add('dark-theme');
+    $('body').toggleClass('dark-theme');
+    $('body').removeClass('light-theme');
   } else {
-    body.classList.add('light-theme');
+    $('body').addClass('light-theme');
+    $('body').removeClass('dark-theme');
   }
 });
 
