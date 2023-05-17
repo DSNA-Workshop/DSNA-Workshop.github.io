@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Dorang landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Dorang | Free Bootstrap 4.3.x template</title>
+    <meta name="description" content="DSNA 2023">
+    <meta name="author" content="shb">
+    <title>DSNA 2023</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
 
@@ -82,17 +82,17 @@
                 </tr>
                                 <tr>
                     <td>9:15-9:40</td>
-                    <td>Enriching valency lexicons with constructional analyses: between verbal semantics and argument structure constructions</td>
+                    <td><a href="#croft">Enriching valency lexicons with constructional analyses: between verbal semantics and argument structure constructions</a></td>
                     <td>Pavlina Kalm and William Croft</td>
                 </tr>
                 <tr>
                     <td>9:40-10:05</td>
-                    <td>The Problem of Polysynthesis in UMR Annotations: Complexities in Handling Preverbal Modification and Noun Incorporation in Arapaho</td>
+                    <td><a href="#julia">The Problem of Polysynthesis in UMR Annotations: Complexities in Handling Preverbal Modification and Noun Incorporation in Arapaho</a></td>
                     <td>Andrew Cowell and Julia Bonn</td>
                 </tr>
                 <tr>
                     <td>10:05-10:30</td>
-                    <td>UMR annotation of Chinese verb compounds and related constructions</td>
+                    <td><a href="#nianwen">UMR annotation of Chinese verb compounds and related constructions</a></td>
                     <td>Nianwen Xue</td>
                 </tr>
                 <tr>
@@ -101,7 +101,7 @@
                 </tr>
                 <tr>
                     <td>11:00-11:25</td>
-                    <td>Work with what we have: Bootstrapping from lexical resources for low-resource languages to AMR/UMR annotation</td>
+                    <td><a href="#alexis">Work with what we have: Bootstrapping from lexical resources for low-resource languages to AMR/UMR annotation </a></td>
                     <td>Alexis Palmer and Matt Buchholz</td>
                 </tr>
                 <tr>
@@ -111,7 +111,7 @@
                 </tr>
                 <tr>
                     <td>11:50-12:15</td>
-                    <td>Comparing English and Russian PropBank annotation</td>
+                    <td><a href="skatje">Comparing English and Russian PropBank annotation</a></td>
                     <td>Skatje Myers, Martha Palmer and Ishan Jindal</td>
                 </tr>
                 <tr>
@@ -124,6 +124,45 @@
             </tbody>
         </table>
         </div>
+
+    <div class="col-md-10 col-lg-8 m-auto" id="Abstracts">
+        <br><br>
+        <h6 class="title mb-4">Abstracts</h6>
+
+<h5 class="h5" id="croft">Enriching valency lexicons with constructional analyses: between verbal semantics and argument structure constructions</h5>
+
+<h6 class="h6"> Pavlina Kalm and William Croft </h6>
+<p class="mb-5">
+One of the main objectives of valency lexicons is to identify argument structures evoked by predicates. The analysis used in these resources thus heavily rests on verbal semantics. However, it has been argued that lexically based representations of event structure lack an important layer of semantic information: a semantic analysis of argument structure constructions (or “constructions”) in which verbs occur (Goldberg 1995, Kalm et al. 2019). Importantly, constructions carry meanings that are independent of particular verbs. In a standard dictionary, this type of semantic analysis is not immediately relevant to a description of lexical items as it is more pertinent to grammar; however, it is essential to the description of event structure, which is addressed in valency lexicons. <br>
+In many instances, the verbal semantics and the semantics of a construction in which it is used ‘align’, such as when a caused motion verb, e.g., put, occurs in a caused motion construction [SBJ V OBJ Loc-PP], as in He put the book on the shelf. The verb evokes an event in which an agent causes a theme to change location. Similarly, the schematic description of the construction describes an externally initiated event of motion in which a theme moves to a different location. However, the caused motion construction is not restricted to motion verbs. Verbs from other verb classes that do not evoke motion events may occur in this construction. For example, a verb of contact by impact such as hit can describe a motion event if it occurs with a locative phrase: He hit the baseball into the crowd. The verb hit in this example evokes the same predicate argument structure as hit used in a forceful contact event, such as He hit the dog; however, the construals of the verb are different. <br>
+Existing valency lexicons infer the meaning of an utterance by pairing thematic roles evoked by a verb to syntactic arguments. Such analysis deals with the semantics of constructions only indirectly; constructions are not dealt with independently of verb meaning. As such, occurrences of verbs in syntactic contexts that describe different types of events than the verb itself pose a challenge. To deal with this issue, we propose that each verb entry in lexicons be supplemented by a semantic analysis of constructions in which the verb occurs. A representation in which verbal and constructional semantics are analyzed separately will enrich the description of event structure. <br>
+Our presentation touches on some of the practical issues having to do with generating mappings between constructional and verbal semantics, such as ways to identify which participant roles map to which grammatical roles in a construction and notation strategies for linking roles in these two types of representations. We also bring up challenges related to constructional analyses, such as defining which participants are essential to the description of constructional semantics. <br>
+</p>
+
+ <h5 class="h5" id="julia">The Problem of Polysynthesis in UMR Annotations: Complexities in Handling Preverbal Modification and Noun Incorporation in Arapaho</h5>
+<h6 class="h6">Andy Cowell and Julia Bonn</h6>
+<p class="mb-5">
+Arapaho, like many agglutinating polysynthetic languages, poses problems for lexicography, in that many "words" are partially made up of lexicalized elements, and are partially syntactic in nature. Arapaho in particular has many prefixes which cross-linguistically would be treated as auxiliary verbs, with meanings such as 'want to...' 'like to...' 'able to...' 'fail to...'. It also features verb-stem elements which can add vector elements to otherwise non-path verbs, such as nouut-ohwoo- 'dance to the outside of a location' and like classic polysynthetic languages, it includes extensive noun incorporation in verb stems. While these issues have been widely recognized by linguists and lexicographers, they pose a special new challenge in the context of attempts to design Uniform Meaning Representations, which seek to aid in cross-linguistic semantic and syntactic comparison and automated translation. In particular, the mismatch between verb stems and overall verb words can lead to loss of semantic content when UMR annotations are done, or conversely, attempts to maintain full content can lead to the creation of "lexicons" which contain thousands of additional words, beyond the stem level, whose features and meanings are highly predictable from the perspective of morpho-syntax, and which do not really need full semantic representations as single "words."<br>
+</p>
+
+<h5 class="h5" id="nianwen">UMR annotation of Chinese verb compounds and related constructions</h5>
+<h6 class="h6">Nianwen Xue</h6>
+<p class="mb-5">
+In this talk, we will examine the challenges of annotating the predicate-argument structure of Chinese verb compounds in Uniform Meaning Representation (UMR), a recent meaning representation framework that extends Abstract Meaning Representation (AMR) to cross-linguistic settings. The key issue is to decide whether to annotate the argument structure of a verb compound as a whole, or to annotate the argument structure of their component verbs as well as the relations between them. We will examine different types of Chinese verb compounds, and propose how to annotate them based on the principle of compositionality, level of grammaticalization, and productivity of component verbs. <br>
+</p>
+<h5 class="h5" id="skatje">Comparing English and Russian PropBank annotation</h5>
+<h6 class="h6">Skatje Myers, Martha Palmer and Ishan Jindal</h6>
+<p class="mb-5">
+Although semantic role labeling is useful in many downstream NLP tasks, these semantic representations are not available in many languages. We present our work on leveraging parallel sentences where the source language has automatic or manual SRL annotation to transfer annotations into the target language. The Universal PropBanks (UPB) 2.0 system uses unsupervised word alignments, filtering heuristics, and bootstrapping to automatically project English SRL annotations to 23 languages. Since this approach uses English-based semantic representations to create annotations in other languages, we provide a case study between English PropBank representations and the recently developed Russian PropBank. We evaluate the UPB 2.0 projecting English annotations onto sentences that have been annotated by Russian PropBank, developing language-agnostic and language-specific filters to improve the results.<br>
+
+</p>
+
+<h5 class="h5" id="alexis">Work with what we have: Bootstrapping from lexical resources for low-resource languages to AMR/UMR annotation</h5>
+<h6 class="h6">Alexis Palmer and Matt Buchholz</h6>
+<p class="mb-5">
+Uniform Meaning Representation (UMR) is a framework for annotating the semantic content of a text. While UMR is designed to be cross-linguistically applicable, its annotation depends on valency lexicons and other materials which may not exist for low-resource languages. Using Arapaho as a case study, we demonstrate how support for UMR annotation can be developed automatically using existing data for low-resource languages, including lexicons and interlinear glosses. <br>
+</p>
+    </div>
 
     <div class="col-md-10 col-lg-8 m-auto" id="Bios">
             <br><br>
