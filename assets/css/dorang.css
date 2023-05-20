@@ -11672,6 +11672,18 @@ body.dark-theme table {
   color: #fff;
 }
 
+body.dark-theme .title {
+  color: #fff;
+}
+
+body.dark-theme .h5 {
+  color: #fff;
+}
+
+body.dark-theme .h6 {
+  color: #fff;
+}
+
 body.light-theme nav.page-navbar .nav-link {
   color: #000;
 }
